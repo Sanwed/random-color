@@ -1,0 +1,108 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0 10%;
+  gap: 300px;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 400;
+  animation: 10s color ease infinite;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 40px;
+}
+
+.history {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0 0 20px;
+}
+
+ol {
+  margin: 0;
+}
+
+ol li {
+  margin-bottom: 10px;
+}
+
+button {
+  font-size: 24px;
+  display: block;
+  margin: 0 auto 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  background: #3351ff;
+}
+
+button.is-active {
+  background: #f60404;
+}
+
+button:hover,
+button:focus-visible {
+  background: #6c83ff;
+}
+
+button:active {
+  background: #4756a8;
+}
+
+@keyframes color {
+  10% {
+    color: #000;
+  }
+  20% {
+    color: #808080;
+  }
+  30% {
+    color: #c0c0c0;
+  }
+  40% {
+    color: #fff;
+  }
+  50% {
+    color: #f0f;
+  }
+  60% {
+    color: #800080;
+  }
+  70% {
+    color: #f00;
+  }
+  80% {
+    color: #800000;
+  }
+  90% {
+    color: #ff0;
+  }
+  100% {
+    color: #808000;
+  }
+}
